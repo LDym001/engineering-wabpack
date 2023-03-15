@@ -6,11 +6,11 @@
 </template>
 
 <script>
-import TestView from "@/views/test-view";
+import TestView from '@/views/test-view'
 export default {
-  name: "App",
+  name: 'App',
   components: { TestView },
-};
+}
 </script>
 
 <style lang="less" scoped>

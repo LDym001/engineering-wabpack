@@ -3,5 +3,8 @@ module.exports = {
   env: {
     node: true,
   },
-  extends: ['plugin:vue/essential', 'standard'],
+  extends: ['plugin:vue/essential'],
+  rules: {
+    'no-console': 'error',
+  },
 }
